@@ -51,7 +51,7 @@ if(isset($_POST['tacno']) )
 	
 	#echo $fbalance;
 	
-
+#  comment for test
 	mysqli_query($con,"UPDATE banktable SET balance='$fbalance' where username='$fuser'");
 
 #-----------------------------------------------------------------------------#
