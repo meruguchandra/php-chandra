@@ -2,6 +2,11 @@
 <h1>Enter username and password</h1>
 
 
+  
+
+
+
+
 
 
 
@@ -14,6 +19,9 @@ username:<input type="text" name='uname' value=<?php if(isset($_POST["uname"])) 
   
 
 
+
+
+#ffff
 
 
 
