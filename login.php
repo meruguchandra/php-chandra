@@ -1,12 +1,21 @@
 <html>
 <h1>Enter username and password</h1>
 
+
+
+
+
 <form name="loginform" method="POST" action="login.php">
 username:<input type="text" name='uname' value=<?php if(isset($_POST["uname"])) echo $_POST["uname"] ; ?>><br><br> 
 <!--		username:<input type="text" name='uname'><br><br>-->
 	password:<input type=password name=pwd>
 <br><br>
 	<input type="submit" value="login">
+  
+
+
+
+
 
 </form>
 <br>
