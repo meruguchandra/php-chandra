@@ -26,6 +26,9 @@
 
 
 
+
+
+
 <form name="loginform" method="POST" action="login.php">
 username:<input type="text" name='uname' value=<?php if(isset($_POST["uname"])) echo $_POST["uname"] ; ?>><br><br> 
 <!--		username:<input type="text" name='uname'><br><br>-->
